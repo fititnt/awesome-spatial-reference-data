@@ -1,0 +1,47 @@
+bcp47: mul
+# i18n/mul
+# - https://iso639-3.sil.org/code/mul
+# - https://en.wikipedia.org/wiki/ISO_639-3
+#   - `mul` (multiple languages) is intended for cases where the data includes more than one language, and (for example) the database requires a single ISO code.
+# ______________________________________________________________________
+# @TODO move to i18n/mul/translation.yml
+featured_compilations:
+  - name: locum_scientificum_inquisitionis
+    id: locum_scientificum_inquisitionis # Trigger warning: dog latin
+    resources:
+      - name: biosafety-level-4-laboratories
+        id: biosafety_level_4_laboratories
+        autoload: false
+      - name: who-collaborating-centres
+        id: who_collaborating_centres
+        autoload: false
+      - name: woah-reference-laboratories
+        id: woah_reference_laboratories
+
+  - name: nomenclatura_et_vocabularium
+    id: nomenclatura_et_vocabularium
+    resources:
+      - name: who-icd-crosswalk
+        id: who_icd_crosswalk
+      # - name: "{{ 'section_data_title' | t }}"
+      #   id: woah_cmn_a
+
+  - name: terminologia_multilinguae
+    id: terminologia_multilinguae
+    resources:
+      - name: biosafety_levels
+        id: biosafety_levels
+        autoload: true
+      - name: woah-cmn-a
+        id: woah_cmn_a
+        autoload: true
+      - name: woah-cmn-b
+        id: woah_cmn_b
+      # - name: "{{ 'section_data_title' | t }}"
+      #   id: woah_cmn_a
+
+  - name: software
+    id: software # Trigger warning: dog latin
+    resources:
+      - name: github_topics
+        id: github_topics
