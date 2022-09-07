@@ -34,6 +34,9 @@ ROOTDIR="${ROOTDIR:-$__ROOTDIR}"
 . "$ROOTDIR"/scripts/common.lib.sh
 
 #### Main ______________________________________________________________________
+# # Some scripts will need this
+# gh_clone_lsf_to_scripts
+
 
 # OPERATION=compile_html_only ./scripts/via-github-action.sh
 if [ "$OPERATION" = "compile_html_only" ]; then

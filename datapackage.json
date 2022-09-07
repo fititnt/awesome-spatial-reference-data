@@ -4,9 +4,99 @@
   "format": "csv",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fititnt/awesome-spatial-epidemiology"
+    "url": "https://github.com/fititnt/awesome-spatial-reference-data"
   },
   "resources": [
+    {
+      "path": "data/1603_16_1_0.no1.tm.hxl.csv",
+      "name": "1603_16_1_0",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "id": "n1603_16_1_0",
+      "schema": {
+        "fields": [
+          {
+            "type": "string",
+            "name": "#item+conceptum+numerordinatio"
+          },
+          {
+            "type": "integer",
+            "name": "#item+conceptum+codicem"
+          },
+          {
+            "type": "string",
+            "name": "#item+rem+i_qcc+is_zxxx+rdf_a_obo_bfo29+rdf_s_u2200_s5000"
+          },
+          {
+            "type": "integer",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_unm49+rdf_p_wdata_p2082_s5000"
+          },
+          {
+            "name": "#item+rem+i_qcc+is_zxxx+ix_zzcodablevel+rdf_p_wdata_q1799794_s5000",
+            "type": "any"
+          },
+          {
+            "type": "string",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_iso3166p1a3+rdf_p_wdata_p298_s5000"
+          },
+          {
+            "type": "string",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_iso3166p1a2+rdf_p_wdata_p297_s5000"
+          },
+          {
+            "type": "integer",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_iso3166p1n+rdf_p_wdata_p299_s5000"
+          },
+          {
+            "name": "#item+rem+i_qcc+is_zxxx+ix_iso3166p2+rdf_p_wdata_p300_s5000",
+            "type": "any"
+          },
+          {
+            "type": "string",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_unescothes+rdf_p_wdata_p3916_s5000"
+          },
+          {
+            "type": "string",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_unagrovoc+rdf_p_wdata_p8061_s5000"
+          },
+          {
+            "type": "string",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_xzosmrel+rdf_p_wdata_p402_s5000"
+          },
+          {
+            "type": "integer",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_xzgeonames+rdf_p_wdata_p1566_s5000"
+          },
+          {
+            "type": "string",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_jpgeolod+rdf_p_wdata_p5400_s5000"
+          },
+          {
+            "type": "string",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_usworldnet+rdf_p_wdata_p8814_s5000"
+          },
+          {
+            "type": "string",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_usfactbook+rdf_p_wdata_p9948_s5000"
+          },
+          {
+            "type": "string",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_xzgithubt+rdf_p_wdata_p9100_s5000"
+          },
+          {
+            "type": "string",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_zzwgs84point+rdf_p_wdata_p625_s5000+rdf_t_geo_wktliteral"
+          },
+          {
+            "type": "string",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_wikiq+rdf_p_wdata_q43649390_s5000"
+          }
+        ]
+      }
+    },
     {
       "path": "data/biosafety-levels.hxl.tm.hxl.csv",
       "name": "biosafety-levels",

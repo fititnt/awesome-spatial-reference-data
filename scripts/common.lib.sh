@@ -29,7 +29,8 @@ set -e
 __ROOTDIR="$(pwd)"
 ROOTDIR="${ROOTDIR:-$__ROOTDIR}"
 
-__BUILDTEMPDIR="$ROOTDIR/partials/temp"
+# __BUILDTEMPDIR="$ROOTDIR/partials/temp"
+__BUILDTEMPDIR="$ROOTDIR/_rawdata/tmp"
 BUILDTEMPDIR="${BUILDTEMPDIR:-$__BUILDTEMPDIR}"
 
 #### Configurable variables  - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -413,7 +414,7 @@ gh_clone_lsf_to_scripts() {
   remote_git="$LSF_REMOTE_GIT"
   local_dir="$LSF_LOCAL_CLONED"
 
-  if [ -f "${local_dir}" ]; then
+  if [ -d "${local_dir}" ]; then
     echo "Already cached [${local_dir}]. Skiping"
     return 0
   fi
