@@ -49,13 +49,24 @@ fetch_cod_ab__fieldmaps() {
   temporarium_csv="$BUILDTEMPDIR/cod_ab.csv"
   temporarium_hxl="$BUILDTEMPDIR/cod_ab.hxl.csv"
   # objective_no1="$ROOTDIR/data/1603_16_1_0.no1.tm.hxl.csv"
-  objective_csv="$ROOTDIR/data/cod-ab.csv"
+  # objective_csv="$ROOTDIR/data/cod_ab.csv"
+  objective_hxl="$ROOTDIR/data/cod_ab.hxl.csv"
   printf "\n\t%40s\n" "${tty_blue}${FUNCNAME[0]} STARTED ${tty_normal}"
   set -x
+
   curl "$source_url" --output "$temporarium_csv"
+
   frictionless validate "$temporarium_csv"
+
+  ./scripts/readme-from-csv.py \
+    --method=table-rename \
+    --table-meta=_meta/cod_ab_fieldmaps.yml \
+    "$temporarium_csv" \
+    >"$temporarium_hxl"
+  frictionless validate "$temporarium_hxl"
+
   set +x
-  archivum_copiae_simplici "$temporarium_csv" "$objective_csv"
+  archivum_copiae_simplici "$temporarium_hxl" "$objective_hxl"
 
   printf "\t%40s\n" "${tty_green}${FUNCNAME[0]} FINISHED OKAY ${tty_normal}"
 }

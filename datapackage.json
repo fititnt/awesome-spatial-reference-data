@@ -123,8 +123,9 @@
       }
     },
     {
-      "path": "data/cod-ab.csv",
-      "name": "cod-ab",
+      "path": "data/cod_ab.hxl.csv",
+      "name": "cod_ab",
+      "id": "cod_ab",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -134,83 +135,51 @@
         "fields": [
           {
             "type": "string",
-            "name": "id"
+            "name": "#item+id"
           },
           {
             "type": "string",
-            "name": "iso_3"
-          },
-          {
-            "type": "string",
-            "name": "adm0_name"
-          },
-          {
-            "type": "string",
-            "name": "adm0_name1"
+            "name": "#country+code+v_iso3"
           },
           {
             "type": "integer",
-            "name": "src_lvl"
-          },
-          {
-            "type": "string",
-            "name": "src_lang"
-          },
-          {
-            "type": "string",
-            "name": "src_lang1"
-          },
-          {
-            "type": "string",
-            "name": "src_lang2"
+            "name": "#meta+source+cod_ab_level"
           },
           {
             "type": "date",
-            "name": "src_date"
+            "name": "#date+created"
           },
           {
             "type": "date",
-            "name": "src_update"
+            "name": "#date+updated"
           },
           {
             "type": "string",
-            "name": "src_name"
+            "name": "#org+name+source"
           },
           {
             "type": "string",
-            "name": "src_name1"
+            "name": "#org+name+contributor1"
           },
           {
             "type": "string",
-            "name": "src_lic"
+            "name": "#meta+license"
           },
           {
             "type": "string",
-            "name": "src_url"
+            "name": "#item+source+type_ckan"
           },
           {
             "type": "string",
-            "name": "e_gpkg"
+            "name": "#item+source+type_gpkg"
           },
           {
             "type": "string",
-            "name": "e_shp"
+            "name": "#item+source+type_shp"
           },
           {
             "type": "string",
-            "name": "e_xlsx"
-          },
-          {
-            "type": "string",
-            "name": "o_gpkg"
-          },
-          {
-            "type": "string",
-            "name": "o_shp"
-          },
-          {
-            "type": "string",
-            "name": "o_xlsx"
+            "name": "#item+source+type_xlsx"
           }
         ]
       }

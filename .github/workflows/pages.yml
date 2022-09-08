@@ -54,9 +54,9 @@ jobs:
 
       # #### Debug _______________________________________________________________
       # _[por-Latn] Lista arquivos locais (útil para saber o que fazer upload [por-Latn]_
-      - run: ls -lha
+      # - run: ls -lha
       # tree-like command for macos, @see https://superuser.com/questions/359723/mac-os-x-equivalent-of-the-ubuntu-tree-command
-      - run: find * -type f
+      # - run: find * -type f
 
       - run: frictionless validate datapackage.json
         continue-on-error: true
@@ -68,8 +68,8 @@ jobs:
           python ./scripts/readme-from-csv.py
           --method=compile-readme
           --natural-language-objective=en
-          "_layouts/index.template.html"
-          >"index.html"
+          _layouts/index.template.html
+          > index.html
         continue-on-error: true
 
       - name: Upload artifact

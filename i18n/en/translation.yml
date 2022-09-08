@@ -15,10 +15,9 @@ section_software_title: Software
 
 compilatio:
   # General sections
-  software: "Software"
-  software__descriptioni: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Maecenas molestie tellus quis magna luctus, a consectetur eros dictum.
+  administrative_boundaries: "Administrative Boundaries"
+  administrative_boundaries__descriptioni: >-
+    <!-- @TODO add description -->
   locum_scientificum_inquisitionis: "Research"
   locum_scientificum_inquisitionis__descriptioni: >-
     Research centers and laboratories by place

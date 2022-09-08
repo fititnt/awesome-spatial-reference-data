@@ -1,0 +1,66 @@
+# _meta/cod_ab_fieldmaps.yml
+
+# @TODO maybe https://v4.framework.frictionlessdata.io/docs/guides/transform-guide
+# @TODO maybe https://petl.readthedocs.io/en/stable/intro.html
+id:
+  csv: 'id'
+  # hxl: '#meta+id'
+  hxl: '#item+id'
+iso_3:
+  csv: 'iso_3'
+  hxl: '#country+code+v_iso3'
+adm0_name:
+  csv: 'adm0_name'
+  # hxl: '#country+name'
+adm0_name1:
+  csv: 'adm0_name1'
+  # hxl: '#country+name+alt'
+src_lvl:
+  csv: 'src_lvl'
+  hxl: '#meta+source+cod_ab_level'
+src_lang:
+  csv: 'src_lang'
+  # hxl: ''
+src_lang1:
+  csv: 'src_lang1'
+  # hxl: ''
+src_lang2:
+  csv: 'src_lang2'
+  # hxl: ''
+src_date:
+  csv: 'src_date'
+  hxl: '#date+created'
+src_update:
+  csv: 'src_update'
+  hxl: '#date+updated'
+src_name:
+  csv: 'src_name'
+  hxl: '#org+name+source'
+src_name1:
+  csv: 'src_name1'
+  hxl: '#org+name+contributor1'
+# TODO: automatically add '#org+name+contributor2=Fieldmaps.io'
+src_lic:
+  csv: 'src_lic'
+  hxl: '#meta+license	'
+src_url:
+  csv: 'src_url'
+  hxl: '#item+source+type_ckan'
+e_gpkg:
+  csv: 'e_gpkg'
+  hxl: '#item+source+type_gpkg'
+e_shp:
+  csv: 'e_shp'
+  hxl: '#item+source+type_shp'
+e_xlsx:
+  csv: 'e_xlsx'
+  hxl: '#item+source+type_xlsx'
+# o_gpkg:
+#   # csv: 'o_gpkg'
+#   hxl: ''
+# o_shp:
+#   # csv: 'o_shp'
+#   hxl: ''
+# o_xlsx:
+#   csv: 'o_xlsx'
+#   hxl: ''

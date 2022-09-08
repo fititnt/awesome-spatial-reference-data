@@ -3,6 +3,8 @@ bcp47: mul
 # - https://iso639-3.sil.org/code/mul
 # - https://en.wikipedia.org/wiki/ISO_639-3
 #   - `mul` (multiple languages) is intended for cases where the data includes more than one language, and (for example) the database requires a single ISO code.
+#
+# @TODO maybe also https://en.wikipedia.org/wiki/List_of_administrative_divisions_by_country
 # ______________________________________________________________________
 # @TODO move to i18n/mul/translation.yml
 featured_compilations:
@@ -41,7 +43,9 @@ featured_compilations:
   #     #   id: woah_cmn_a
 
   - name: administrative_boundaries
-    id: software # Trigger warning: dog latin
+    id: administrative_boundaries
     resources:
       - name: n1603_16_1_0
         id: n1603_16_1_0
+      - name: cod_ab
+        id: cod_ab
