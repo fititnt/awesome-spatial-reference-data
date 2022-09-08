@@ -31,8 +31,11 @@ featured_compilations:
   - name: terminologia_multilinguae
     id: terminologia_multilinguae
     resources:
-      - name: biosafety_levels
-        id: biosafety_levels
+      - name: geospatial_generic_terminology
+        id: geospatial_generic_terminology
+        autoload: true
+      - name: geospatial_controlled_vocabularies
+        id: geospatial_controlled_vocabularies
         autoload: true
   #     - name: woah-cmn-a
   #       id: woah_cmn_a

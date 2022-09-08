@@ -2,9 +2,9 @@ bcp47: en
 project_title: Awesome Spatial Reference Data
 
 project_summary: >-
-  [WORKING DRAFT] Curated list of awesome spatial epidemiology data exchange concepts,
-  data reference and tooling.
-  Contributions are welcomed!
+  [VERY EARLY DRAFT] See
+  https://github.com/fititnt/awesome-spatial-epidemiology-and-health-surveillance
+  and https://en.wikipedia.org/wiki/Reference_data
 
 section_github_topics_title: GitHub topics
 section_general_concepts_title: General concepts
@@ -29,13 +29,13 @@ compilatio:
     <!-- @TODO add description -->
   # The dataset compilations
   github_topics: GitHub Topics
-  biosafety_levels: Biosafety levels
-  biosafety_level_4_laboratories: Biosafety level 4 facilities
-  who_collaborating_centres: World Health Organization Collaborating Centres
-  who_icd_crosswalk: International Classification of Diseases (ICD) terminology crosswalks
-  woah_cmn_a: Old Classification of Diseases Notifiable to the OIE – List A
-  woah_cmn_b: Old Classification of Diseases Notifiable to the OIE – List B
-  woah_reference_laboratories: World Organisation for Animal Health Reference Laboratories
+  geospatial_generic_terminology: Generic Geospatial terminology
+  # biosafety_level_4_laboratories: Biosafety level 4 facilities
+  # who_collaborating_centres: World Health Organization Collaborating Centres
+  # who_icd_crosswalk: International Classification of Diseases (ICD) terminology crosswalks
+  # woah_cmn_a: Old Classification of Diseases Notifiable to the OIE – List A
+  # woah_cmn_b: Old Classification of Diseases Notifiable to the OIE – List B
+  # woah_reference_laboratories: World Organisation for Animal Health Reference Laboratories
 # TODOs
 # - https://gitlab.com/explore/projects/topics/bioinformatics
 # - https://gitlab.com/explore/projects/topics/syndromic-surveillance

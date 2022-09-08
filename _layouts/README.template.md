@@ -45,3 +45,14 @@
 To the extent possible under law, [Emerson Rocha](https://github.com/fititnt)
 has waived all copyright and related or neighboring rights to this work to
 [Public Domain](UNLICENSE).
+
+
+<!--
+TODOs
+- Maybe also add this to the wiki fields https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete-country
+
+Etc
+- https://www.wikidata.org/wiki/Q36524
+- https://wiki.openstreetmap.org/wiki/Category:Properties
+
+-->
