@@ -1,3 +1,11 @@
-#item+conceptum+codicem,#item+rem+i_qcc+is_zxxx+ix_wikiq,#item+rem+i_qcc+is_zxxx+ix_wikip,#item+rem+i_mul+is_zxxx,#item+rem+i_qcc+is_zxxx+ix_xywdatap1282
-16_297,Q1140221,P297,ISO 3166-1 alpha-2,
-16_298,Q1341492,P298,ISO 3166-1 alpha-3 code,
+#item+conceptum+codicem,#item+rem+i_qcc+is_zxxx+ix_wikiq,#item+rem+i_qcc+is_zxxx+ix_wikip,#item+rem+i_mul+is_zxxx,#item+rem+i_qcc+is_zxxx+ix_xywdatap1282,#item+rem+i_qcc+is_zxxx+ix_xywdatap5869
+16_297,Q1140221,P297,ISO 3166-1 alpha-2 code,Key:ISO3166-2,MZ
+16_298,Q1341492,P298,ISO 3166-1 alpha-3 code,,MOZ
+16_299,Q2725758,P299,ISO 3166-1 numeric code,,508
+16_300,Q133153,P300,ISO 3166-2 code,,MZ-L
+16_901,Q3063249,P901,FIPS 10-4,,MZ04
+16_1937,Q499348,P1937,UN/LOCODE,Key:ref:LOCODE,MZMPM
+16_2082,Q7865431,P2082,UN M.49 code,,508
+16_3068,Q7950858,P3068,WIPO ST.3,,MZ
+16_8119,Q3013341,P8119,HASC,,MZ.MP
+17_7200235,Q7200235,,HASC,,MZ.MP

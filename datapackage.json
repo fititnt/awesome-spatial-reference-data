@@ -126,7 +126,11 @@
           },
           {
             "name": "#item+rem+i_qcc+is_zxxx+ix_xywdatap1282",
-            "type": "any"
+            "type": "string"
+          },
+          {
+            "name": "#item+rem+i_qcc+is_zxxx+ix_xywdatap5869",
+            "type": "string"
           }
         ]
       }
