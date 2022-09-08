@@ -121,6 +121,99 @@
           }
         ]
       }
+    },
+    {
+      "path": "data/cod-ab.csv",
+      "name": "cod-ab",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "type": "string",
+            "name": "id"
+          },
+          {
+            "type": "string",
+            "name": "iso_3"
+          },
+          {
+            "type": "string",
+            "name": "adm0_name"
+          },
+          {
+            "type": "string",
+            "name": "adm0_name1"
+          },
+          {
+            "type": "integer",
+            "name": "src_lvl"
+          },
+          {
+            "type": "string",
+            "name": "src_lang"
+          },
+          {
+            "type": "string",
+            "name": "src_lang1"
+          },
+          {
+            "type": "string",
+            "name": "src_lang2"
+          },
+          {
+            "type": "date",
+            "name": "src_date"
+          },
+          {
+            "type": "date",
+            "name": "src_update"
+          },
+          {
+            "type": "string",
+            "name": "src_name"
+          },
+          {
+            "type": "string",
+            "name": "src_name1"
+          },
+          {
+            "type": "string",
+            "name": "src_lic"
+          },
+          {
+            "type": "string",
+            "name": "src_url"
+          },
+          {
+            "type": "string",
+            "name": "e_gpkg"
+          },
+          {
+            "type": "string",
+            "name": "e_shp"
+          },
+          {
+            "type": "string",
+            "name": "e_xlsx"
+          },
+          {
+            "type": "string",
+            "name": "o_gpkg"
+          },
+          {
+            "type": "string",
+            "name": "o_shp"
+          },
+          {
+            "type": "string",
+            "name": "o_xlsx"
+          }
+        ]
+      }
     }
   ]
 }

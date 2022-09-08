@@ -40,7 +40,7 @@ featured_compilations:
   #     # - name: "{{ 'section_data_title' | t }}"
   #     #   id: woah_cmn_a
 
-  - name: software
+  - name: administrative_boundaries
     id: software # Trigger warning: dog latin
     resources:
       - name: n1603_16_1_0
