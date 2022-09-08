@@ -1,0 +1,6 @@
+- Controlled vocabulary for terminology related to points of interest
+  - https://www.wikidata.org/wiki/Property:P6512
+  - https://unece.org/trade/uncefact/cl-recommendations
+- UNESCO Thessaurus,
+  - https://www.wikidata.org/wiki/Property:P3916
+  - https://vocabularies.unesco.org/browser/thesaurus/en/page/concept725

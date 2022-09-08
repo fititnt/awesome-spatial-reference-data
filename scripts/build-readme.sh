@@ -30,6 +30,13 @@ set -e
 __ROOTDIR="$(pwd)"
 ROOTDIR="${ROOTDIR:-$__ROOTDIR}"
 
+#### TODOs _____________________________________________________________________
+# - Definelly create this dataset https://en.wikipedia.org/wiki/List_of_administrative_divisions_by_country
+# - Maybe create a dataset with https://www.wikidata.org/wiki/Property:P3896
+# - Maybe add as generic terminology 
+#   - https://www.wikidata.org/wiki/Property:P6512
+#   - https://unece.org/trade/uncefact/cl-recommendations
+
 #### Functions _________________________________________________________________
 
 # shellcheck source=common.lib.sh

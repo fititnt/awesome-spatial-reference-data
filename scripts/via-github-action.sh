@@ -78,6 +78,11 @@ if [ "$OPERATION" = "crawler_wikipedia_bsl4facilities" ]; then
   crawler_wikipedia_bsl4facilities
   exit 0
 fi
+# OPERATION=wikipedia_administrative_divisions ./scripts/via-github-action.sh
+if [ "$OPERATION" = "wikipedia_administrative_divisions" ]; then
+  ./scripts/etc/wikipedia_administrative_divisions.sh
+  exit 0
+fi
 
 echo "unknow operation [$OPERATION]"
 exit 1
