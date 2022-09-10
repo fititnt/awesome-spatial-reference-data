@@ -376,17 +376,19 @@ class Cli:
                     stderr=sys.stderr):
         # self.pyargs = pyargs
 
-        if stdin.isatty():
-            _infile = pyargs.infile
-            _stdin = False
-        else:
-            _infile = None
-            _stdin = True
+        # if stdin.isatty():
+        #     _infile = pyargs.infile
+        #     _stdin = False
+        # else:
+        #     _infile = None
+        #     _stdin = True
 
-        if not _infile and not _stdin:
-            print('ERROR! Try:')
-            print(f'    {__file__} --help')
-            return self.EXIT_ERROR
+        # if not _infile and not _stdin:
+        #     print('ERROR! Try:')
+        #     print(f'    {__file__} --help')
+        #     return self.EXIT_ERROR
+
+        _infile = pyargs.infile
 
         if pyargs.method == 'table-processing':
             csv2r = CSVtoReadme(
