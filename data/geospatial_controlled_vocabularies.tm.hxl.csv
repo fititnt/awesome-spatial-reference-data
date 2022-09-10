@@ -1,9 +1,15 @@
 #item+conceptum+codicem,#item+rem+i_qcc+is_zxxx+ix_wikiq,#item+rem+i_qcc+is_zxxx+ix_wikip,#item+rem+i_mul+is_zxxx,#item+rem+i_qcc+is_zxxx+ix_xywdatap1282,#item+rem+i_qcc+is_zxxx+ix_xywdatap5869
+16_78,Q14296,P78,top-level Internet domain,,.mz
+16_238,Q192824,P238,IATA airport code,Key:iata,MPM
+16_239,Q207529,P239,ICAO airport code,Key:icao,FQMA
+16_281,Q37447,P281,postal code,Key:addr:postcode|Key:postal_code,
+16_296,Q14565734,P296,railway station code,Key:railway:ref,
 16_297,Q1140221,P297,ISO 3166-1 alpha-2 code,Key:ISO3166-2,MZ
 16_298,Q1341492,P298,ISO 3166-1 alpha-3 code,,MOZ
 16_299,Q2725758,P299,ISO 3166-1 numeric code,,508
 16_300,Q133153,P300,ISO 3166-2 code,,MZ-L
 16_402,Q936,P402,OpenStreetMap relation ID,,2908441
+16_421,Q12143,P421,time zone,Key:timezone,UTC+02:00
 16_901,Q3063249,P901,FIPS 10-4,,MZ04
 16_1566,Q830106,P1566,GeoNames ID,,1040649
 16_1937,Q499348,P1937,UN/LOCODE,Key:ref:LOCODE,MZMPM
