@@ -1,8 +1,11 @@
 #item+conceptum+codicem,#item+rem+i_qcc+is_zxxx+ix_wikiq,#item+rem+i_qcc+is_zxxx+ix_wikip,#item+rem+i_mul+is_zxxx,#item+rem+i_qcc+is_zxxx+ix_xywdatap1163,#item+rem+i_qcc+is_zxxx+ix_xywdatap1195
 37045,Q37045,,/markup language/@eng-Latn,,
-37045_926165,Q926165,,/Geography Markup Language (GML)/@eng-Latn,application/gml+xml,.gml|.xml
+37045_79587,Q79587,,/Keyhole Markup Language (KML)/@eng-Latn,application/vnd.google-earth.kml+xml,kml
+37045_926165,Q926165,,/Geography Markup Language (GML)/@eng-Latn,application/gml+xml,gml|xml
 37045_4018860,Q4018860,,/Well-known text (WKT)/@eng-Latn,,
 235557,Q235557,,/file format/@eng-Latn,,
-235557_22908624,Q22908624,,/GeoPackage/@eng-Latn,application/geopackage+sqlite3,.gpkg
+235557_5533904,Q5533904,,/GeoJSON/@eng-Latn,application/geo+json,geojson
+235557_15838827,Q15838827,,/TopoJSON/@eng-Latn,application/json,topojson
+235557_22908624,Q22908624,,/GeoPackage/@eng-Latn,application/geopackage+sqlite3,gpkg
 5227330,Q5227330,,/data pack/@eng-Latn,,
-5227330_278934,Q278934,P3896,/shapefile/@eng-Latn,x-gis/x-shapefile,.shp|.shx|.dbf
+5227330_278934,Q278934,P3896,/shapefile/@eng-Latn,x-gis/x-shapefile,shp|shx|dbf
