@@ -1,11 +1,24 @@
 #item+conceptum+codicem,#item+rem+i_qcc+is_zxxx+ix_wikiq,#item+rem+i_qcc+is_zxxx+ix_wikip,#item+rem+i_mul+is_zxxx,#item+rem+i_qcc+is_zxxx+ix_xywdatap1282
+336,Q336,,/science/@eng-Latn,
+336_1071,Q1071,,/geography/@eng-Latn,
+336_8008,Q8008,,/earth science/@eng-Latn,
+336_16387,Q16387,,/information science/@eng-Latn,
+336_25261,Q25261,,/meteorology/@eng-Latn,
+336_42515,Q42515,,/cartography/@eng-Latn,
+336_134435,Q134435,,/topography/@eng-Latn,
+336_757520,Q757520,,/atmospheric sciences/@eng-Latn,
+336_918779,Q918779,,/geoinformatics/@eng-Latn,
+336_1440020,Q1440020,,/geostatistics/@eng-Latn,
+336_2374463,Q2374463,,/data science/@eng-Latn,
 22664,Q22664,P625,/geographic coordinate system; coordinate location/@eng-Latn,
-22664_34027,Q34027,,/latitude/@eng-Latn,Key:latitude
-22664_36477,Q36477,,/longitude/@eng-Latn,Key:longitude
 37447,Q37447,P281,/postal code/@eng-Latn,Key:postal_code
-6452016,Q6452016,,/height above mean sea level/@eng-Latn,Key:ele:regional
+1502887,Q1502887,,/geodetic datum/@eng-Latn,
+1502887_34027,Q34027,,/latitude/@eng-Latn,Key:latitude
+1502887_36477,Q36477,,/longitude/@eng-Latn,Key:longitude
+1502887_9364781,Q9364781,,/vertical datum/@eng-Latn,
+1502887_9364781_6452016,Q6452016,,/height above mean sea level/@eng-Latn,Key:ele:regional
 17334923,Q17334923,P276,/location/@eng-Latn,
-21550639,Q21550639,,/geometric concept/@eng-Latn,
+21550639,Q21550639,,/geometric concept; primitive/@eng-Latn,
 21550639_37555,Q37555,,/polygon/@eng-Latn,
 21550639_44946,Q44946,,/point (geometry)/@eng-Latn,
 21550639_633674,Q633674,,/polygonal chain (geometry)/@eng-Latn,

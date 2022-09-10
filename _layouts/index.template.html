@@ -112,7 +112,7 @@
             {% endif %}
           </ul>
         </header>
-        <div class="container-fluid text-center overflow-hidden">
+        <div class="container-fluid overflow-hidden">
           <div id="{{ item.id }}__table" data-datapackage-path="{{ datapackage.id[item.id].path }}" {% if item.autoload
             %} data-datapackage-autoload="1" {% endif %} class="table-responsive">
             {% unless item.autoload -%}

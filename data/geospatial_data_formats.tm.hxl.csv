@@ -3,6 +3,8 @@
 37045_79587,Q79587,,/Keyhole Markup Language (KML)/@eng-Latn,application/vnd.google-earth.kml+xml,kml
 37045_926165,Q926165,,/Geography Markup Language (GML)/@eng-Latn,application/gml+xml,gml|xml
 37045_4018860,Q4018860,,/Well-known text (WKT)/@eng-Latn,,
+61694,Q61694,,/Uniform Resource Identifier/@eng-Latn,,
+61694_5533943,Q5533943,,/Geo URI/@eng-Latn,,
 235557,Q235557,,/file format/@eng-Latn,,
 235557_5533904,Q5533904,,/GeoJSON/@eng-Latn,application/geo+json,geojson
 235557_15838827,Q15838827,,/TopoJSON/@eng-Latn,application/json,topojson
