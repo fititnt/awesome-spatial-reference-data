@@ -30,6 +30,11 @@ compilatio:
   # The dataset compilations
   github_topics: GitHub Topics
   geospatial_generic_terminology: Generic Geospatial terminology
+  geospatial_controlled_vocabularies: Geospatial Controlled Vocabularies
+  # Q494823
+  geospatial_data_formats: Geospatial Data Formats
+
+  # https://en.wikipedia.org/wiki/GIS_file_formats
   # biosafety_level_4_laboratories: Biosafety level 4 facilities
   # who_collaborating_centres: World Health Organization Collaborating Centres
   # who_icd_crosswalk: International Classification of Diseases (ICD) terminology crosswalks

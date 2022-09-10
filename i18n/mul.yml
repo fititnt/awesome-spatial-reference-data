@@ -26,6 +26,9 @@ featured_compilations:
       - name: geospatial_controlled_vocabularies
         id: geospatial_controlled_vocabularies
         autoload: true
+      - name: geospatial_data_formats
+        id: geospatial_data_formats
+        autoload: true
   #     - name: woah-cmn-a
   #       id: woah_cmn_a
   #       autoload: true

@@ -156,6 +156,10 @@
           },
           {
             "type": "string",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_wikip"
+          },
+          {
+            "type": "string",
             "name": "#item+rem+i_mul+is_zxxx"
           },
           {
@@ -223,6 +227,44 @@
           {
             "type": "string",
             "name": "#item+source+type_xlsx"
+          }
+        ]
+      }
+    },
+    {
+      "path": "data/geospatial_data_formats.tm.hxl.csv",
+      "name": "geospatial_data_formats",
+      "id": "geospatial_data_formats",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "type": "string",
+            "name": "#item+conceptum+codicem"
+          },
+          {
+            "type": "string",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_wikiq"
+          },
+          {
+            "type": "string",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_wikip"
+          },
+          {
+            "type": "string",
+            "name": "#item+rem+i_mul+is_zxxx"
+          },
+          {
+            "type": "string",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_xywdatap1163"
+          },
+          {
+            "type": "string",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_xywdatap1195"
           }
         ]
       }
