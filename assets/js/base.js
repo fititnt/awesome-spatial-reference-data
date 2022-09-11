@@ -116,16 +116,16 @@ function autoload_tables() {
 
 // console.log('TODO scripts/html/base.js')
 
-autoload_tables()
+// autoload_tables()
 
-document.querySelectorAll('table tbody tr').forEach(function (el) {
-  console.log(el)
-  // el.target.addEventListener("hover", function (el2) {
-  el.addEventListener("hover", function (el2) {
-    console.log(el2.target)
-    console.log(el2)
-    // loader(document.getElementById(el.target.dataset.datapackageLoaderId))
-    // // box.target.remove()
-    // box.remove()
-  }, false)
-})
+// document.querySelectorAll('table tbody tr').forEach(function (el) {
+//   console.log(el)
+//   // el.target.addEventListener("hover", function (el2) {
+//   el.addEventListener("hover", function (el2) {
+//     console.log(el2.target)
+//     console.log(el2)
+//     // loader(document.getElementById(el.target.dataset.datapackageLoaderId))
+//     // // box.target.remove()
+//     // box.remove()
+//   }, false)
+// })

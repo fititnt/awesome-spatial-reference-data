@@ -8,6 +8,8 @@
  *   DESCRIPTION:  hxltm-web-utils
  *
  *  REQUIREMENTS:  - papaparse
+ *                 - jQuery (not really essential, but whatever)
+ *
  *          BUGS:  ---
  *         NOTES:  ---
  *        AUTHOR:  Emerson Rocha <rocha[at]ieee.org>
@@ -59,8 +61,8 @@ function hxltm_prefetch(remove_csv, _options, cb) {
       // console.log("Row:", row.data);
       let original_headers = Object.keys(row.data)
       let new_headers = hxltm_headers_filter(original_headers)
-      console.log('headers', original_headers, new_headers)
-      cb({ options: new_headers })
+      // console.log('headers', original_headers, new_headers)
+      cb({ columns: new_headers })
     },
     // complete: function () {
     //   console.log("hxltm_prefetch: All done!");
@@ -74,13 +76,53 @@ function hxltm_prefetch(remove_csv, _options, cb) {
   // console.log(remove_csv, cb)
 }
 
+function hxltm_html_table(conteiner_id, options, cb) {
+  let wrapper = $(`#${conteiner_id}`)
+  let table_init_str = '<table class="table table-striped table-hover table-sm tablesorter">'
+  table_init_str += '<thead>'
+  table_init_str += '<tr scole="col">'
+  options.columns.forEach(function (item) {
+    table_init_str += `<th>${item}</th>`
+  })
+  table_init_str += '</tr>'
+  table_init_str += '</thead>'
+  table_init_str += `<tbody class="table-group-divider"></tbody>`
+  table_init_str += '</table>'
+  // let table = document.createElement("table")
+  // wrapper.append('table')
+  // wrapper.append('<table><thead></thead><tbody id="temp"></tbody></table>')
+  wrapper.append(table_init_str)
+  // console.log('hxltm_html_table_initialize', table)
+  options['tbody'] = jQuery(`#${conteiner_id} table tbody`)
+  options['tbody_sel'] = `#${conteiner_id} table tbody`
+  // console.log('aaaa', options)
+  // console.log('table_init_str', table_init_str)
+  cb(options)
+}
+
+
+function hxltm_html_table_new_line(tbody, options, line) {
+  let newline = []
+  for (const [key, value] of Object.entries(line)) {
+    // console.log(`${key}: ${value}`);
+    // newline.append('<td>' + item + '</td>')
+    newline.push(`<td>${value}</td>`)
+  }
+  // line.forEach(item =>
+  //   newline.append('<td>' + item + '</td>')
+  // )
+  tbody.append('<tr role="row">' + newline.join() + '</tr>')
+  // console.log('hxltm_html_table_new_line', line)
+}
+
 /**
  * 
  * @param {string} remove_csv 
  * @param {Object} options
  * @param {callback} cb
  */
-function hxltm_fetch(remove_csv, options, cb) {
+function hxltm_fetch(remove_csv, options, cb_newline, cb_complete) {
+  let total = 0
   Papa.parse(remove_csv, {
     download: true,
     header: true,
@@ -93,24 +135,59 @@ function hxltm_fetch(remove_csv, options, cb) {
     //   return value
     // },
     step: function (row) {
-      console.log("Row:", row.data);
+      cb_newline(row.data)
+      total += 1
     },
-    complete: function () {
-      console.log("hxltm_fetch All done!");
-      cb()
+    complete: function (results, file) {
+      // console.log("Parsing complete:", results, file, total);
+      options['total'] = total
+      cb_complete(options)
     }
   });
-  console.log('hxltm_fetch', remove_csv, callback)
+  // console.log('hxltm_fetch', remove_csv, callback)
+}
+
+function hxltm_ui_loadtable(remote_csv, conteiner_id) {
+  // console.log('@TODO hxltm_ui_loadtable', remote_csv, conteiner_id)
+  hxltm_prefetch(remote_csv, null, function (options) {
+    // console.log('hxltm_prefetch done', options)
+    // hxltm_html_table('n1603_16_1_0__table', options, function(){
+    hxltm_html_table(conteiner_id, options, function () {
+      hxltm_fetch(remote_csv, options, function (newline) {
+        hxltm_html_table_new_line(options.tbody, options, newline)
+      }, function (options) {
+        // console.log('complete', options)
+        let table_widgets = []
+        if (options.total > 30) {
+          table_widgets.push('filter')
+        }
+        jQuery($(`#${conteiner_id} table`)).tablesorter({
+          // widgets: ['zebra', 'filter', 'pager'],
+          widgets: table_widgets,
+          // debug : "filter columnSelector"
+          theme: 'bootstrap',
+          // debug: true
+          debug: false
+
+        });
+      })
+    })
+  })
 }
 
 let remote_csv = "http://git.workspace.localhost/fititnt/awesome-spatial-reference-data/data/cod_ab.hxl.csv"
+
 // hxltm_fetch('./data/cod_ab.hxl.csv', console.log)
-hxltm_prefetch(remote_csv, null, function (options) {
-  console.log('hxltm_prefetch done')
-  hxltm_fetch(remote_csv, options, function () {
-    console.log('hxltm_fetch done')
-  })
-})
+// hxltm_prefetch(remote_csv, null, function (options) {
+//   console.log('hxltm_prefetch done', options)
+//   hxltm_html_table('n1603_16_1_0__table', options, function () {
+//     hxltm_fetch(remote_csv, options, function (newline) {
+//       hxltm_html_table_new_line(options.tbody, options, newline)
+//     })
+//   })
+// })
+
+// hxltm_ui_loadtable(remote_csv, 'n1603_16_1_0__table')
 
 // hxltm_prefetch(remote_csv, null, function (options) {
 //   console.log('hxltm_prefetch done')
@@ -119,3 +196,14 @@ hxltm_prefetch(remote_csv, null, function (options) {
 //   // })
 // })
 // hxltm_fetch("http://git.workspace.localhost/fititnt/awesome-spatial-reference-data/data/cod_ab.hxl.csv", console.log)
+
+document.querySelectorAll('[data-datapackage-autoload]').forEach(function (el) {
+  let remote_csv = el.dataset.datapackagePath
+  if (!(remote_csv.startsWith('/')) && !(remote_csv.startsWith('http'))) {
+    // remote_csv = '/' + remote_csv
+    remote_csv = window.location.origin + window.location.pathname + remote_csv
+  }
+  console.log('autoloader', el, remote_csv, el.id)
+  hxltm_ui_loadtable(remote_csv, el.id)
+  // loader(el)
+})
