@@ -24,6 +24,10 @@
 16_3067,Q1486843,P3067,GS1 country code,,,\d{3}(-\d{3})?,
 16_3068,Q7950858,P3068,WIPO ST.3,,,[A-Z]{2},MZ
 16_3175,Q97303272,P3175,Statoids ID,,http://www.statoids.com/$1.html,[a-z]{3},ymz
+16_3422,Q156705,P3422,INSEE countries and foreign territories code,,,99[1-5]\d{2},99393
+16_3441,Q575156,P3441,FIFA country code,,https://www.fifa.com/about-fifa/associations/$1,[A-Z]{3},MOZ
+16_3601,Q28739688,P3601,MarineTraffic Lighthouse ID,,https://www.marinetraffic.com/en/ais/details/lights/$1,\d{10},1000016573
+16_3749,Q12013,P3749,Google Maps Customer ID,,https://www.google.com/maps?cid=$1,"\d{14,20}",18112662212276904634
 16_8119,Q3013341,P8119,HASC,,,"[A-Z]{2}(\.[A-Z]{2}){0,2}",MZ.MP
 17_7200235,Q7200235,,Place code,,,,MZ05
 17_23582265,Q23582265,,Open Location Code,,,,5G6J2HJF+PG
