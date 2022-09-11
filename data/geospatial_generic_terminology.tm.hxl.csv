@@ -26,7 +26,7 @@
 999999999_201,Q2478921,P201,/lake outflow/@eng-Latn,
 999999999_205,Q42533408,P205,/basin country/@eng-Latn,
 999999999_1082,Q1613416,P1082,/population/@eng-Latn,Key:population
-999999999_4080,Q3947,P4080,/number of houses/@eng-Latn,
+999999999_1538,Q8436,P1538,/number of households/@eng-Latn,
 999999999_4080,Q3947,P4080,/number of houses/@eng-Latn,
 999999999_4792,Q12323,P4792,/dam/@eng-Latn,
 999999999_5140,Q590232,P5140,/geographical center; coordinates of geographic center/@eng-Latn,
@@ -35,3 +35,7 @@
 999999999_6897,Q8236,P6897,/literacy rate/@eng-Latn,
 999999999_6498,Q485100,P6498,/illiterate population/@eng-Latn,
 999999999_6499,Q8236,P6499,/literate population/@eng-Latn,
+999999999_8763,Q203516,P8763,/birth rate/@eng-Latn,
+999999999_8887,Q2507626,P8887,/water area/@eng-Latn,
+999999999_9601,Q4006|Q483130,P9601,/official map URL/@eng-Latn,
+999999999_10814,,P10814,/number of housing units/@eng-Latn,
