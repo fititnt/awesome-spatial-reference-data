@@ -58,7 +58,7 @@ function autoload_tables() {
   // document.querySelectorAll('[data-datapackage-path]').forEach(function (el) {
 
   const loader = function (el) {
-    console.log('loader', el)
+    // console.log('loader', el)
     let data_csv = []
     let header_csv = []
     d3.csv(el.dataset.datapackagePath, function (data) {
