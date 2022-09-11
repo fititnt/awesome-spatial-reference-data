@@ -52,7 +52,8 @@ TODOs
 - Maybe also add this to the wiki fields https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete-country
 - Maybe P-Codes are based on FIPS?? https://en.wikipedia.org/wiki/List_of_FIPS_region_codes_(M%E2%80%93O)
 - Wikidata SPARQL query equivalent https://www.wikidata.org/wiki/Property:P3921
-
+- Maybe https://www.wikidata.org/wiki/Property:P1921
+  - Example: https://www.wikidata.org/wiki/Property:P402
 
 Good interfaces for inspiration:
 - https://angryloki.github.io/mreid-resolver/
