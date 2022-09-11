@@ -28,7 +28,13 @@
 16_3441,Q575156,P3441,FIFA country code,,https://www.fifa.com/about-fifa/associations/$1,[A-Z]{3},MOZ
 16_3601,Q28739688,P3601,MarineTraffic Lighthouse ID,,https://www.marinetraffic.com/en/ais/details/lights/$1,\d{10},1000016573
 16_3749,Q12013,P3749,Google Maps Customer ID,,https://www.google.com/maps?cid=$1,"\d{14,20}",18112662212276904634
+16_4708,Q46285787,P4708,VOGRIPA ID (Volcano),,https://www2.bgs.ac.uk/vogripa/searchVOGRIPA.cfc?method=detail&id=$1,[1-9]\d+,71
+16_5400,Q4346622,P5400,GeoNLP ID,,,[0-9a-zA-Z]{6},
+16_6375,Q24574749|Q319608|Q79007,P6375,full address,,,,"2631 Av. Acordos De Lusaka, Maputo, Moçambique"
+16_6778,Q81661634,P6778,OBO Gazetteer ID,,http://purl.obolibrary.org/obo/GAZ_$1,\d{8},00010004
+16_7197,Q15103608,P7197,OpenWeatherMap city ID,,https://openweathermap.org/city/$1,\d+,1040652
 16_8119,Q3013341,P8119,HASC,,,"[A-Z]{2}(\.[A-Z]{2}){0,2}",MZ.MP
+16_8714,Q5512808,P8714,GADM ID,,https://www.gbif.org/occurrence/map?gadm_gid=$1,[A-Z]{3}(\.\d+)*(_\d+)?,MOZ.6_1
 17_7200235,Q7200235,,Place code,,,,MZ05
 17_23582265,Q23582265,,Open Location Code,,,,5G6J2HJF+PG
 17_43649390,Q43649390,,Wikidata Q identifier,,https://www.wikidata.org/wiki/$1,Q[1-9]\d*,Q379658
