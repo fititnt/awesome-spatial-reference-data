@@ -30,6 +30,9 @@ compilatio:
   # The dataset compilations
   github_topics: GitHub Topics
   geospatial_generic_terminology: Generic Geospatial terminology
+
+  # Wikidata property for authority control for countries (Q55978503)
+  # Wikidata property for authority control for places (Q19829908)
   geospatial_controlled_vocabularies: Geospatial Controlled Vocabularies
   # Q494823
   geospatial_data_formats: Geospatial Data Formats

@@ -19,7 +19,11 @@
 16_1937,Q499348,P1937,UN/LOCODE,Key:ref:LOCODE,https://locode.info/$1,,MZMPM
 16_1945,Q79007,P1945,street key,Key:addr:street,,,
 16_2082,Q7865431,P2082,UN M.49 code,,,[0-9]{3},508
+16_2983,Q161718,P2983,UNDP country code,,,[A-Z]{3},MOZ
+16_3024,Q376150,P3024,ITU letter code,,,[A-Z]([A-Z]{2})?,MOZ
+16_3067,Q1486843,P3067,GS1 country code,,,\d{3}(-\d{3})?,
 16_3068,Q7950858,P3068,WIPO ST.3,,,[A-Z]{2},MZ
+16_3175,Q97303272,P3175,Statoids ID,,http://www.statoids.com/$1.html,[a-z]{3},ymz
 16_8119,Q3013341,P8119,HASC,,,"[A-Z]{2}(\.[A-Z]{2}){0,2}",MZ.MP
 17_7200235,Q7200235,,Place code,,,,MZ05
 17_23582265,Q23582265,,Open Location Code,,,,5G6J2HJF+PG
