@@ -48,6 +48,9 @@ has waived all copyright and related or neighboring rights to this work to
 
 
 <!--
+
+> 2022-08-10:: PAREI EM  P1945 (https://prop-explorer.toolforge.org/, filtro wikidata property related to geography)
+
 TODOs
 - Maybe also add this to the wiki fields https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete-country
 - Maybe P-Codes are based on FIPS?? https://en.wikipedia.org/wiki/List_of_FIPS_region_codes_(M%E2%80%93O)
