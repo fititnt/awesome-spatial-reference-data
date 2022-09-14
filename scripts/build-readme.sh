@@ -106,3 +106,5 @@ csvwdescribe data/geospatial_data_formats.tm.hxl.csv
 #       - https://github.com/peter-evans/link-checker
 
 exit 0
+
+# printf "P1282\n" | ./999999999/0/1603_3_12.py --actionem-sparql --de=P --query --ex-interlinguis --identitas-ex-wikiq --cum-interlinguis=P1282 | ./999999999/0/1603_3_12.py --actionem-sparql --csv --hxltm 
