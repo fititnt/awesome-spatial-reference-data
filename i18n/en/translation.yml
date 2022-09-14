@@ -18,6 +18,9 @@ compilatio:
   administrative_boundaries: "Administrative Boundaries"
   administrative_boundaries__descriptioni: >-
     <!-- @TODO add description -->
+  demographia: "Demographic statistics"
+  demographia__descriptioni: >-
+    Population statistics, estimates, (...)
   locum_scientificum_inquisitionis: "Research"
   locum_scientificum_inquisitionis__descriptioni: >-
     Research centers and laboratories by place
