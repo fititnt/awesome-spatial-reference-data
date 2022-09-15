@@ -110,7 +110,7 @@ function hxltm_html_format_value(hxlhashtag, value) {
     values.forEach(item => {
       values_formated.push(`<a href="https://www.wikidata.org/wiki/Property:${item}">${item}</a>`)
     })
-  } else if (hxlhashtag.indexOf('+ix_xywdatap1282') > -1) {
+  } else if (hxlhashtag.indexOf('+ix_xywdatap1282') > -1 || hxlhashtag.indexOf('+ix_wdatap1282') > -1) {
     // console.log('hxlhashtag', hxlhashtag)
     values_formated = []
     values.forEach(item => {

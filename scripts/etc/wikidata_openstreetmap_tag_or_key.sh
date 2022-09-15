@@ -45,20 +45,23 @@ ROOTDIR="${ROOTDIR:-$__ROOTDIR}"
 #   None
 #######################################
 wikidata_openstreetmap_tag_or_key() {
-  source_url="https://raw.githubusercontent.com/MDCIII/1603_16_1/main/1603/16/1/0/1603_16_1_0.no1.tm.hxl.csv"
-  temporarium_no1="$BUILDTEMPDIR/1603_16_1_0.no1.tm.hxl.csv"
-  objective_no1="$ROOTDIR/data/1603_16_1_0.no1.tm.hxl.csv"
+  slug="wikidata_osm_keys_or_tags"
 
+  temporarium_hxltm="$BUILDTEMPDIR/${slug}.tm.hxl.csv"
+  objective_hxltm="$ROOTDIR/data/${slug}.no1.tm.hxl.csv"
+
+  set -x
   printf "P1282\n" |
     NUMERORDINATIO_BASIM="${LSF_OFFICINA}" "$LSF_OFFICINA/999999999/0/1603_3_12.py" --actionem-sparql --de=P --query --ex-interlinguis --identitas-ex-wikiq --cum-interlinguis=P1282 |
-    NUMERORDINATIO_BASIM="${LSF_OFFICINA}" "$LSF_OFFICINA/999999999/0/1603_3_12.py" --actionem-sparql --csv --hxltm
+    NUMERORDINATIO_BASIM="${LSF_OFFICINA}" "$LSF_OFFICINA/999999999/0/1603_3_12.py" --actionem-sparql --csv --hxltm \
+    > "${temporarium_hxltm}"
 
   # printf "\n\t%40s\n" "${tty_blue}${FUNCNAME[0]} STARTED ${tty_normal}"
   # set -x
   # curl "$source_url" --output "$temporarium_no1"
-  # frictionless validate "$temporarium_no1"
-  # set +x
-  # archivum_copiae_simplici "$temporarium_no1" "$objective_no1"
+  frictionless validate "$temporarium_hxltm"
+  set +x
+  archivum_copiae_simplici "$temporarium_hxltm" "$objective_hxltm"
 
   printf "\t%40s\n" "${tty_green}${FUNCNAME[0]} FINISHED OKAY ${tty_normal}"
 }

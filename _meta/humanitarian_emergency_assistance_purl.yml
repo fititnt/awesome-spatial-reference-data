@@ -1,6 +1,4 @@
-# Title from Title of https://undocs.org/Home/Mobile?FinalSymbol=A/RES/46/182
-
-# humanitarian emergency assistance reference data
+# "humanitarian emergency assistance " from Title of https://undocs.org/Home/Mobile?FinalSymbol=A/RES/46/182
 
 cod_ab_0:
   rule:
@@ -8,12 +6,14 @@ cod_ab_0:
     python_regex: "10\/0\/(?P<ix_unm49>.*)"
   target:
     text/html: https://data.humdata.org/dataset/cod-ab-(ix_iso3663a3)
-# cod_ab_1:
-#   rule: "10/1/(unm49)"
+cod_ab_1:
+  rule: "10/1/(unm49)"
 
-# cod_ab_2:
-#   rule: "10/2/(unm49)"
+  # @see https://apps.itos.uga.edu/CODV2API/Help#Location
+  # https://apps.itos.uga.edu/CODV2API/api/v1/themes/cod-ab/locations/MOZ/versions/current/geojson/1
+cod_ab_2:
+  rule: "10/2/(unm49)"
 
-# cod_ab_3:
-#   rule: "10/3/(unm49)"
+cod_ab_3:
+  rule: "10/3/(unm49)"
 

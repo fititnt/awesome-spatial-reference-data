@@ -36,6 +36,9 @@ featured_compilations:
       - name: geospatial_data_formats
         id: geospatial_data_formats
         autoload: true
+      - name: wikidata_osm_keys_or_tags
+        id: wikidata_osm_keys_or_tags
+        autoload: false
   #     - name: woah-cmn-a
   #       id: woah_cmn_a
   #       autoload: true
