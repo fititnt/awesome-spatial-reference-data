@@ -52,9 +52,17 @@ wikidata_openstreetmap_tag_or_key() {
 
   set -x
   printf "P1282\n" |
-    NUMERORDINATIO_BASIM="${LSF_OFFICINA}" "$LSF_OFFICINA/999999999/0/1603_3_12.py" --actionem-sparql --de=P --query --ex-interlinguis --identitas-ex-wikiq --cum-interlinguis=P1282 |
-    NUMERORDINATIO_BASIM="${LSF_OFFICINA}" "$LSF_OFFICINA/999999999/0/1603_3_12.py" --actionem-sparql --csv --hxltm \
-    > "${temporarium_hxltm}"
+    NUMERORDINATIO_BASIM="${LSF_OFFICINA}" \
+      "$LSF_OFFICINA/999999999/0/1603_3_12.py" \
+      --actionem-sparql --de=P --query --ex-interlinguis \
+      --identitas-ex-wikiq-et-wikip --cum-interlinguis=P1282 |
+    NUMERORDINATIO_BASIM="${LSF_OFFICINA}" \
+      "$LSF_OFFICINA/999999999/0/1603_3_12.py" \
+      --actionem-sparql --identitas-ex-wikiq-et-wikip \
+      --csv --hxltm --optimum \
+      >"${temporarium_hxltm}"
+
+  # printf "P1282\n" | ./999999999/0/1603_3_12.py --actionem-sparql --de=P --query --ex-interlinguis --identitas-ex-wikiq-et-wikip --cum-interlinguis=P1282 | ./999999999/0/1603_3_12.py --actionem-sparql --identitas-ex-wikiq-et-wikip --csv --hxltm --optimum > 999999/0/P1282_3.tm.hxl.csv
 
   # printf "\n\t%40s\n" "${tty_blue}${FUNCNAME[0]} STARTED ${tty_normal}"
   # set -x

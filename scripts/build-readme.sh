@@ -107,4 +107,14 @@ csvwdescribe data/geospatial_data_formats.tm.hxl.csv
 
 exit 0
 
+
+# @see https://wiki.openstreetmap.org/wiki/Overpass_turbo
+# @see https://mapsaregreat.com/geographic-data-mining-and-visualisation-for-beginners/overpass-turbo-tutorial.html
+
+
+# @TODO the next query type of query needs to be fixed at 1603_3_12.py, so when
+#       running, it could auto sort the tags in cells with "|" (wikidata export
+#       not do it automatically) and also if the query return Wiki P instead
+#       of only Wiki Q, we would need to add more information
 # printf "P1282\n" | ./999999999/0/1603_3_12.py --actionem-sparql --de=P --query --ex-interlinguis --identitas-ex-wikiq --cum-interlinguis=P1282 | ./999999999/0/1603_3_12.py --actionem-sparql --csv --hxltm 
+# printf "P1282\n" | ./999999999/0/1603_3_12.py --actionem-sparql --de=P --query --ex-interlinguis --identitas-ex-wikiq --cum-interlinguis=P1282 | ./999999999/0/1603_3_12.py --actionem-sparql --csv --hxltm > 999999/teste.hxl.csv

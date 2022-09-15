@@ -294,6 +294,10 @@
           },
           {
             "type": "string",
+            "name": "#item+rem+i_qcc+is_zxxx+ix_wikip"
+          },
+          {
+            "type": "string",
             "name": "#item+rem+i_qcc+is_zxxx+ix_wikiq"
           },
           {
