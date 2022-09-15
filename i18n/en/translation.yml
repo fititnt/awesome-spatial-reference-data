@@ -1,10 +1,14 @@
 bcp47: en
-project_title: Awesome Spatial Reference Data
+project_title: Awesome Spatial Reference Datasets and Vocabularies
 
 project_summary: >-
-  [VERY EARLY DRAFT] See
-  https://github.com/fititnt/awesome-spatial-epidemiology-and-health-surveillance
-  and https://en.wikipedia.org/wiki/Reference_data
+  Awesome list of <a href="https://en.wikipedia.org/wiki/Reference_data">
+  reference data</a> focused on datasets with spatial key and vocabularies
+  to search even more data.
+
+project_summary_plain: >-
+  Awesome list of reference data focused on datasets with spatial key and
+  vocabularies to search even more data.
 
 section_github_topics_title: GitHub topics
 section_general_concepts_title: General concepts
@@ -39,7 +43,6 @@ compilatio:
   geospatial_controlled_vocabularies: Geospatial Controlled Vocabularies
   # Q494823
   geospatial_data_formats: Geospatial Data Formats
-
 
   # Where to find more
 

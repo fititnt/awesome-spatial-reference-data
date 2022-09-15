@@ -284,6 +284,6 @@ document.querySelectorAll('[data-datapackage-loader-id]').forEach(box =>
     let container = document.getElementById(el.target.dataset.datapackageLoaderId)
     let remote_csv = container.dataset.datapackagePath
     hxltm_ui_loadtable(remote_csv, container.id)
-    box.remove()
+    box.parent().remove()
   }, false)
 )
