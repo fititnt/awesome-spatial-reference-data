@@ -1,20 +1,22 @@
 <?xml version="1.0"?>
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="https://dados-referenciais-abertos.etica.ai/ontologia/UNOCHA-data.owl.ttl#"
+     xml:base="https://spatial-reference.etica.ai/ontology/SCOHES.owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="https://dados-referenciais-abertos.etica.ai/ontologia/UNOCHA-data.owl.ttl#">
-    <Prefix name="" IRI="https://dados-referenciais-abertos.etica.ai/ontologia/UNOCHA-data.owl.ttl#"/>
+     ontologyIRI="https://spatial-reference.etica.ai/ontology/SCOHES.owl#">
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="dcat" IRI="http://www.w3.org/ns/dcat#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="wdata" IRI="http://www.wikidata.org/wiki/Special:EntityData/"/>
+    <Prefix name="scohes" IRI="https://spatial-reference.etica.ai/data/SCOHES.owl#"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal xml:lang="pt">Rascunho de mapeamento de teminologia de https://data.humdata.org/group/moz. Não projetado para uso em produção com dados reais (implicaria em planejamento muito mais especializado)</Literal>
+        <Literal xml:lang="pt">2Rascunho de mapeamento de teminologia de https://data.humdata.org/group/moz. Não projetado para uso em produção com dados reais (implicaria em planejamento muito mais especializado)</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="AcuteMalnutrition"/>
@@ -94,6 +96,9 @@
     <Declaration>
         <Class IRI="3W-WhoIsDoingWhatWhere"/>
     </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdf:about"/>
+    </Declaration>
     <SubClassOf>
         <Class IRI="AcuteMalnutrition"/>
         <Class IRI="FoodSecurityAndNutrition"/>
@@ -194,6 +199,11 @@
         <Class IRI="3W-WhoIsDoingWhatWhere"/>
         <Class IRI="CoordinationAndContext"/>
     </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdf:about"/>
+        <IRI>Returnees</IRI>
+        <AbbreviatedIRI>wdata:Q131572</AbbreviatedIRI>
+    </AnnotationAssertion>
 </Ontology>
 
 

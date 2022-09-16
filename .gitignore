@@ -134,3 +134,5 @@ _rawdata/tmp/*
 scripts/lexicographi-sine-finibus
 index.html
 *.properties
+
+# ontology/SCOHES.owl.ttl

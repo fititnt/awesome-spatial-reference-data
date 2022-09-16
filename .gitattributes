@@ -1,0 +1,4 @@
+*.owl linguist-detectable
+
+assets/** linguist-vendored
+_layouts/** linguist-vendored
