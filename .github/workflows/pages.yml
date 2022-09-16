@@ -26,6 +26,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+      # url2: spatial-reference.etica.ai
     runs-on: ubuntu-latest
     continue-on-error: true
     steps:
@@ -61,7 +62,12 @@ jobs:
       - run: frictionless validate datapackage.json
         continue-on-error: true
 
-      - run: python ./scripts/readme-from-csv.py --help
+      - run: frictionless validate datapackage.json
+        continue-on-error: true
+
+      - run: echo "$URL_TEST"
+        env:
+          URL_TEST: ${{ steps.deployment.outputs.page_url }}
         continue-on-error: true
 
       - run: ./scripts/readme-from-csv.py --help
