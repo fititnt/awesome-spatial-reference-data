@@ -133,3 +133,4 @@ _rawdata/tmp/*
 !_rawdata/tmp/.gitkeep
 scripts/lexicographi-sine-finibus
 index.html
+*.properties
