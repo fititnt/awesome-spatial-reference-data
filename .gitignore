@@ -135,4 +135,7 @@ scripts/lexicographi-sine-finibus
 index.html
 *.properties
 
-# ontology/SCOHES.owl.ttl
+# ontology/DCOHEA.owl.ttl
+
+ontology/dcohea~temp.owl.ttl
+ontology/dcohea~protege.owl.ttl

@@ -118,3 +118,8 @@ exit 0
 #       of only Wiki Q, we would need to add more information
 # printf "P1282\n" | ./999999999/0/1603_3_12.py --actionem-sparql --de=P --query --ex-interlinguis --identitas-ex-wikiq --cum-interlinguis=P1282 | ./999999999/0/1603_3_12.py --actionem-sparql --csv --hxltm 
 # printf "P1282\n" | ./999999999/0/1603_3_12.py --actionem-sparql --de=P --query --ex-interlinguis --identitas-ex-wikiq --cum-interlinguis=P1282 | ./999999999/0/1603_3_12.py --actionem-sparql --csv --hxltm > 999999/teste.hxl.csv
+
+
+
+# rdfpipe --input-format=turtle --output-format=longturtle ontology/dcohea.owl.ttl > ontology/dcohea~temp.owl.ttl
+# rdfpipe --input-format=turtle --output-format=longturtle ontology/dcohea~protege.owl.ttl > ontology/dcohea.owl.ttl
