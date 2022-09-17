@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://purl.org/dcohea#"
+     xml:base="https://purl.org/dcohea"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:wdata="http://www.wikidata.org/wiki/Special:EntityData/"
+     xmlns:dcohea="https://purl.org/dcohea#">
+    <owl:Ontology rdf:about="https://purl.org/dcohea#">
+        <rdfs:comment xml:lang="en">Explanations about collection of datasets comonly used for (...) </rdfs:comment>
+        <rdfs:label xml:lang="mul">DCOHEA</rdfs:label>
+        <rdfs:label xml:lang="en">Dataset Collection Ontology for Humanitarian Emergency Assistance</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#about -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#about"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    
+
+
+    <!-- https://purl.org/dcohea#AcuteMalnutrition -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#AcuteMalnutrition">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#FoodSecurityAndNutrition"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#AffectedPeople -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#AffectedPeople">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#0001"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#Airports -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#Airports">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#GeographyAndInfrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#BaselinePopulation -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#BaselinePopulation">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#PopulationAndSocio-economy"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#ConflictEvents -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#ConflictEvents">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#CoordinationAndContext"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#CoordinationAndContext -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#CoordinationAndContext">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#0001"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#EducationFacilities -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#EducationFacilities">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#HealthAndEducation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#FoodPrices -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#FoodPrices">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#FoodSecurityAndNutrition"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#FoodSecurity -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#FoodSecurity">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#FoodSecurityAndNutrition"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#FoodSecurityAndNutrition -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#FoodSecurityAndNutrition">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#0001"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#Funding -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#Funding">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#CoordinationAndContext"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#GeographyAndInfrastructure -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#GeographyAndInfrastructure">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#0001"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#HealthAndEducation -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#HealthAndEducation">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#0001"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#HealthFacilities -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#HealthFacilities">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#HealthAndEducation"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#HumanitarianAccess -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#HumanitarianAccess">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#CoordinationAndContext"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#HumanitarianNeeds -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#HumanitarianNeeds">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#AffectedPeople"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#InternallyDisplacedPersons -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#InternallyDisplacedPersons">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#AffectedPeople"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#PopulatedPlaces -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#PopulatedPlaces">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#GeographyAndInfrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#PopulationAndSocio-economy -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#PopulationAndSocio-economy">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#0001"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#PovertyRate -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#PovertyRate">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#PopulationAndSocio-economy"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#RefugeesAndPersonsOfConcern -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#RefugeesAndPersonsOfConcern">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#AffectedPeople"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#Returnees -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#Returnees">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#AffectedPeople"/>
+        <rdf:about rdf:resource="http://www.wikidata.org/wiki/Special:EntityData/Q131572"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#Roads -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#Roads">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#GeographyAndInfrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#0001 -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#0001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <rdfs:label xml:lang="en">any dataset collection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#1000 -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#1000">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#0001"/>
+        <rdfs:label xml:lang="en">administrative division</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#1100 -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#1100">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#1000"/>
+        <rdfs:label xml:lang="en">administrative division level 0</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#1101 -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#1101">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#1000"/>
+        <rdfs:label xml:lang="en">administrative division level 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://purl.org/dcohea#3W-WhoIsDoingWhatWhere -->
+
+    <owl:Class rdf:about="https://purl.org/dcohea#3W-WhoIsDoingWhatWhere">
+        <rdfs:subClassOf rdf:resource="https://purl.org/dcohea#CoordinationAndContext"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
