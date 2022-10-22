@@ -13,6 +13,7 @@
 16_239,P239,,Key:icao
 16_240,P240,,Key:faa
 16_275,P275,,Key:license
+16_276,P276,,Key:addr:neighbourhood|Key:addr:suburb
 16_281,P281,,Key:addr:postcode|Key:postal_code
 16_296,P296,,Key:railway:ref|Key:ref:train
 16_300,P300,,Key:ISO3166-2
@@ -121,7 +122,9 @@
 16_4135,P4135,,Key:max_age
 16_4136,P4136,,Key:ref:wigos
 16_4184,P4184,,Key:incline
+16_4219,P4219,,Key:ref:at:tkk
 16_4238,P4238,,Key:contact:webcam|Tag:surveillance=webcam
+16_4245,P4245,,Key:ref:RS:nkd
 16_4533,P4533,,Key:ref:ruian:street
 16_4755,P4755,,Key:ref:crs
 16_4856,P4856,,Key:addr:conscriptionnumber
@@ -156,7 +159,7 @@
 17_418,,Q418,Key:telecom
 17_432,,Q432,Tag:religion=muslim
 17_514,,Q514,Tag:healthcare:speciality=anatomy
-17_515,,Q515,Tag:addr=city|Tag:place=city
+17_515,,Q515,Tag:place=city
 17_532,,Q532,Tag:place=village
 17_542,,Q542,Tag:sport=athletics
 17_565,,Q565,Key:wikimedia_commons
@@ -312,6 +315,7 @@
 17_14092,,Q14092,Tag:leisure=sports_hall
 17_14373,,Q14373,Key:fishing|Tag:sport=fishing
 17_14378,,Q14378,Tag:building:architecture=neoclassicism
+17_14659,,Q14659,Tag:stone_type=coat_of_arms
 17_14745,,Q14745,Key:furniture
 17_14748,,Q14748,Tag:amenity=table
 17_14922,,Q14922,Tag:sport=table_soccer
@@ -583,6 +587,7 @@
 17_124282,,Q124282,Tag:waterway=dock
 17_124354,,Q124354,Tag:building:architecture=bauhaus
 17_124714,,Q124714,Tag:natural=spring
+17_125054,,Q125054,Tag:brand:wikidata=Q125054|Tag:brand=ALDI
 17_126017,,Q126017,Key:distance
 17_126807,,Q126807,Tag:amenity=kindergarten|Tag:building=kindergarten
 17_126936,,Q126936,Tag:historic:civilization=visigothic_kingdom
@@ -658,6 +663,7 @@
 17_164240,,Q164240,Tag:site_type=megalith
 17_165029,,Q165029,Tag:craft=electrician
 17_165044,,Q165044,Tag:building=greenhouse
+17_165704,,Q165704,Tag:athletics=high_jump
 17_166118,,Q166118,Tag:amenity=archive
 17_166557,,Q166557,Tag:barrier=stile
 17_166735,,Q166735,Tag:wetland=swamp
@@ -694,6 +700,7 @@
 17_177635,,Q177635,Tag:healthcare:speciality=nephrology
 17_177749,,Q177749,Key:sidewalk|Tag:footway=sidewalk
 17_177823,,Q177823,Key:diet:halal
+17_178108,,Q178108,Tag:athletics=javelin_throw
 17_178150,,Q178150,Tag:power=insulator
 17_178169,,Q178169,Tag:denomination=presbyterian
 17_178380,,Q178380,Tag:sport=paragliding
@@ -712,6 +719,7 @@
 17_180673,,Q180673,Tag:boundary=ceremonial
 17_180817,,Q180817,Tag:cuisine=portuguese
 17_180846,,Q180846,Tag:shop=supermarket
+17_180935,,Q180935,Tag:athletics=shot_put
 17_180958,,Q180958,Key:faculty
 17_180987,,Q180987,Tag:tower:type=stupa
 17_181138,,Q181138,Key:diet:vegan
@@ -722,6 +730,7 @@
 17_182290,,Q182290,Tag:government=customs
 17_182442,,Q182442,Tag:healthcare:speciality=plastic_surgery
 17_182555,,Q182555,Key:ice_road
+17_182570,,Q182570,Tag:athletics=discus_throw
 17_182610,,Q182610,Tag:power=terminal
 17_182651,,Q182651,Tag:denomination=samaritan
 17_182676,,Q182676,Tag:tourism=alpine_hut
@@ -731,7 +740,9 @@
 17_184358,,Q184358,Key:reef|Tag:natural=reef
 17_184590,,Q184590,Tag:aeroway=runway
 17_184624,,Q184624,Tag:resource=peat
+17_184865,,Q184865,Tag:athletics=hammer_throw
 17_184963,,Q184963,Tag:historic:period=edo
+17_185027,,Q185027,Tag:athletics=pole_vault
 17_185113,,Q185113,Tag:natural=cape
 17_185187,,Q185187,Tag:man_made=watermill
 17_185196,,Q185196,Tag:healthcare=midwife
@@ -742,6 +753,7 @@
 17_186516,,Q186516,Tag:flag:type=national
 17_186685,,Q186685,Tag:amenity=marae
 17_187022,,Q187022,Tag:vending=newspapers
+17_187204,,Q187204,Tag:athletics=triple_jump
 17_187317,,Q187317,Tag:leisure=firepit
 17_187456,,Q187456,Key:bar|Tag:amenity=bar
 17_187916,,Q187916,Tag:sport=horse_racing
@@ -784,6 +796,7 @@
 17_192786,,Q192786,Tag:cuisine=italian
 17_192824,,Q192824,Key:iata
 17_192832,,Q192832,Tag:sport=paintball
+17_192935,,Q192935,Tag:cuisine=seafood
 17_192937,,Q192937,Tag:sport=korfball
 17_192995,,Q192995,Tag:healthcare:speciality=vaccination
 17_193210,,Q193210,Tag:sport=parachuting
@@ -888,6 +901,7 @@
 17_221722,,Q221722,Tag:highway=cycleway
 17_223705,,Q223705,Key:mtb|Tag:sport=mtb
 17_223710,,Q223710,Tag:denomination=old_believers
+17_223836,,Q223836,Tag:athletics=steeplechase
 17_230386,,Q230386,Tag:denomination=ismaili
 17_231200,,Q231200,Tag:sport=netball
 17_232211,,Q232211,Tag:historic:period=first_intermediate_period
@@ -965,6 +979,7 @@
 17_297163,,Q297163,Tag:industrial=oil_mill
 17_302729,,Q302729,Tag:religion=voodoo
 17_309250,,Q309250,Tag:man_made=courtyard
+17_311935,,Q311935,Tag:surface=artificial_turf
 17_316490,,Q316490,Tag:shop=funerals_directors
 17_318144,,Q318144,Tag:historic:civilization=cycladic
 17_319218,,Q319218,Tag:denomination=gelug
@@ -1043,6 +1058,7 @@
 17_392371,,Q392371,Tag:man_made=cross
 17_401404,,Q401404,Tag:shop=storage_rental
 17_408192,,Q408192,Tag:network=US:US
+17_412770,,Q412770,Key:infant_bed
 17_420962,,Q420962,Tag:railway=preserved
 17_426316,,Q426316,Tag:denomination=united_church_of_christ
 17_431289,,Q431289,Key:brand
@@ -1100,7 +1116,7 @@
 17_519076,,Q519076,Tag:office=estate_agent|Tag:shop=estate_agent
 17_521839,,Q521839,Tag:leisure=shooting_ground|Tag:sport=shooting_range
 17_523620,,Q523620,Tag:denomination=uniting
-17_525800,,Q525800,Tag:support=pole
+17_525800,,Q525800,Tag:man_made=mast
 17_527449,,Q527449,Tag:building:architecture=ottoman
 17_529819,,Q529819,Tag:building:architecture=queen_anne
 17_531953,,Q531953,Tag:geological=outcrop
@@ -1164,6 +1180,7 @@
 17_623970,,Q623970,Tag:cuisine=arab
 17_624114,,Q624114,Tag:garden:style=kitchen
 17_625903,,Q625903,Key:payment:contactless
+17_626687,,Q626687,Tag:leisure=pitch|Tag:sport=boules
 17_628179,,Q628179,Tag:highway=path|Tag:highway=track
 17_628505,,Q628505,Tag:prison_camp=labor_camp
 17_628764,,Q628764,Tag:healthcare:speciality=occupational
@@ -1187,6 +1204,7 @@
 17_654493,,Q654493,Tag:cuisine=turkish
 17_654772,,Q654772,Tag:tourism=hostel
 17_654810,,Q654810,Tag:activity:dating=yes
+17_655301,,Q655301,Tag:playground=balancebeam
 17_655686,,Q655686,Tag:building=commercial
 17_656208,,Q656208,Tag:craft=photographic_laboratory
 17_657345,,Q657345,Tag:vending=public_transport_tickets
@@ -1364,6 +1382,7 @@
 17_850107,,Q850107,Tag:building=bungalow
 17_850767,,Q850767,Tag:aerialway=chair_lift
 17_851210,,Q851210,Tag:compensator=voltage_regulator
+17_852008,,Q852008,Tag:emergency=ses_station
 17_852010,,Q852010,Tag:barrier=lift_gate
 17_852190,,Q852190,Tag:historic=wreck
 17_852389,,Q852389,Tag:craft=beekeeper
@@ -1763,6 +1782,7 @@
 17_1613929,,Q1613929,Tag:emergency=phone
 17_1619873,,Q1619873,Key:note
 17_1621657,,Q1621657,Tag:leisure=horse_riding
+17_1622390,,Q1622390,Key:highchair
 17_1622507,,Q1622507,Tag:religion=unitarian_universalist
 17_1628979,,Q1628979,Tag:highway=living_street
 17_1630622,,Q1630622,Tag:amenity=drinking_water|Tag:fountain=bubbler
@@ -1776,6 +1796,7 @@
 17_1651566,,Q1651566,Tag:building=sty
 17_1652352,,Q1652352,Tag:megalith_type=long_barrow
 17_1661732,,Q1661732,Tag:barrier=cycle_barrier
+17_1662011,,Q1662011,Tag:building=industrial
 17_1662024,,Q1662024,Tag:landuse=industrial
 17_1664398,,Q1664398,Tag:man_made=insect_hotel
 17_1665778,,Q1665778,Tag:traffic_sign=DE:386.3
@@ -1801,6 +1822,7 @@
 17_1751429,,Q1751429,Tag:amenity=fast_food
 17_1752787,,Q1752787,Tag:healthcare=birthing_center
 17_1754598,,Q1754598,Tag:piste:type=nordic
+17_1756459,,Q1756459,Tag:tower:type=hose
 17_1756711,,Q1756711,Tag:shop=video
 17_1758233,,Q1758233,Tag:bridge:movable=retractable
 17_1760988,,Q1760988,Tag:craft=saddler
@@ -1848,7 +1870,7 @@
 17_1934961,,Q1934961,Tag:attraction=dark_ride
 17_1935728,,Q1935728,Tag:megalith_type=stone_circle
 17_1936841,,Q1936841,Key:hgv_articulated
-17_1939150,,Q1939150,Tag:power=line
+17_1939150,,Q1939150,Tag:power=cable|Tag:power=line|Tag:power=minor_line
 17_1939700,,Q1939700,Tag:sport=climbing_adventure
 17_1940488,,Q1940488,Tag:waterway=turning_point
 17_1942420,,Q1942420,Key:mofa
@@ -1957,6 +1979,7 @@
 17_2471487,,Q2471487,Tag:clothes=children
 17_2483038,,Q2483038,Key:fastpass
 17_2483410,,Q2483410,Tag:piste:type=playground
+17_2484615,,Q2484615,Key:nudism
 17_2495176,,Q2495176,Tag:denomination=united_free_church_of_scotland
 17_2497438,,Q2497438,Tag:historic:period=roman_greece
 17_2502622,,Q2502622,Tag:bridge=yes
@@ -2109,7 +2132,7 @@
 17_4498092,,Q4498092,Tag:industrial=bakery
 17_4657754,,Q4657754,Tag:route=transhumance
 17_4663385,,Q4663385,Tag:disused:railway=station|Tag:disused=station|Tag:railway=disused_station
-17_4743886,,Q4743886,Tag:recycling_type=container
+17_4743886,,Q4743886,Tag:amenity=recycling|Tag:recycling_type=container
 17_4827510,,Q4827510,Tag:man_made=snow_fence
 17_4828724,,Q4828724,Tag:museum=aviation
 17_4919932,,Q4919932,Tag:castle_type=stately
@@ -2257,6 +2280,7 @@
 17_10729142,,Q10729142,Tag:listed_status=Category_C
 17_10862618,,Q10862618,Tag:natural=saddle
 17_10863852,,Q10863852,Key:payment:ipass
+17_10876842,,Q10876842,Tag:cuisine=chinese
 17_10883023,,Q10883023,Tag:oneway=no
 17_10924220,,Q10924220,Tag:building:architecture=late_gothic
 17_10929058,,Q10929058,Key:model
@@ -2269,6 +2293,8 @@
 17_11284331,,Q11284331,Tag:shop=anime
 17_11412052,,Q11412052,Tag:amenity=weighbridge
 17_11456201,,Q11456201,Tag:religion=fujiko
+17_11569986,,Q11569986,Tag:craft=printmaker
+17_11588306,,Q11588306,Tag:government=social_services
 17_11663772,,Q11663772,electrified=no
 17_11682820,,Q11682820,Tag:denomination=christ_scientist
 17_11725702,,Q11725702,Tag:landuse=hop_garden
@@ -2278,6 +2304,7 @@
 17_11865729,,Q11865729,Tag:healthcare:speciality=podiatry
 17_11875349,,Q11875349,Tag:leisure=playground
 17_11928176,,Q11928176,Tag:sport=pelota
+17_11945119,,Q11945119,Key:parking_space=disabled|Tag:amenity=parking_space
 17_11946202,,Q11946202,Tag:zoo=butterfly
 17_11997323,,Q11997323,Tag:amenity=lifeboat_station
 17_12014035,,Q12014035,Key:hiking
@@ -2286,14 +2313,12 @@
 17_12037720,,Q12037720,Tag:highway=mini_roundabout
 17_12042092,,Q12042092,Tag:amenity=funeral_hall
 17_12054233,,Q12054233,Key:crossing:signals
-17_12055245,,Q12055245,Tag:government=social_services
 17_12059912,,Q12059912,Tag:information=map
 17_12060881,,Q12060881,Tag:historic:civilization=imperial_chinese
 17_12069738,,Q12069738,Tag:building:architecture=spanish_colonial
 17_12072818,,Q12072818,Tag:ramp:wheelchair=yes
 17_12104567,,Q12104567,Tag:landuse=residential
 17_12104949,,Q12104949,Tag:railway=spur
-17_12144897,,Q12144897,Tag:building=industrial
 17_12334006,,Q12334006,Key:coach
 17_12377751,,Q12377751,Key:construction|Key:construction:building|Tag:building=construction
 17_12720942,,Q12720942,Tag:building:architecture=art_deco
@@ -2353,7 +2378,7 @@
 17_15906149,,Q15906149,Tag:office=association
 17_15911738,,Q15911738,Tag:plant:source=hydro
 17_15930902,,Q15930902,Tag:barrier=sally_port
-17_15968492,,Q15968492,Tag:created_by=gnome-maps_3.22.2|Tag:created_by=gnome-maps_3.33.3
+17_15968492,,Q15968492,Tag:created_by=gnome-maps_3.33.3
 17_16040822,,Q16040822,Key:crossing|Tag:footway=crossing|Tag:highway=crossing
 17_16050852,,Q16050852,Tag:religion=Gonabadi_Dervish
 17_16237489,,Q16237489,Tag:leaf_type=needleleaved
@@ -2497,7 +2522,6 @@
 17_27106886,,Q27106886,Tag:access=public|Tag:leisure=swimming_pool
 17_27134986,,Q27134986,Key:addr:city
 17_27148141,,Q27148141,Key:currency:ZEC
-17_27477249,,Q27477249,Tag:cuisine=chinese
 17_27979885,,Q27979885,Tag:cuisine=sandwich
 17_28109475,,Q28109475,Tag:railway=proposed
 17_28136308,,Q28136308,Tag:type=restriction
@@ -2518,7 +2542,6 @@
 17_39015397,,Q39015397,Tag:railway=signal_box
 17_39364723,,Q39364723,Tag:building=hospital
 17_39508083,,Q39508083,Key:intermittent
-17_39659371,,Q39659371,Tag:landuse=retail
 17_40049164,,Q40049164,Tag:emergency=rescue_box
 17_41362222,,Q41362222,Key:map_type
 17_41955438,,Q41955438,Tag:building:material=brick
@@ -2572,7 +2595,6 @@
 17_47516347,,Q47516347,Tag:shop=curtain
 17_47516351,,Q47516351,Tag:shop=doors
 17_47516353,,Q47516353,Tag:shop=flooring
-17_47516358,,Q47516358,Tag:shop=furniture
 17_47516362,,Q47516362,Tag:shop=interior_decoration
 17_47516368,,Q47516368,Tag:shop=kitchen
 17_47516372,,Q47516372,Tag:shop=lamps|Tag:shop=lighting
@@ -2618,7 +2640,7 @@
 17_47520019,,Q47520019,Tag:amenity=social_facility
 17_47520173,,Q47520173,Tag:amenity=gambling
 17_47520281,,Q47520281,Tag:amenity=kitchen
-17_47520309,,Q47520309,Tag:amenity=recycling
+17_47520309,,Q47520309,Tag:amenity=recycling|Tag:recycling_type=centre
 17_47520332,,Q47520332,Tag:amenity=sanitary_dump_station
 17_47520398,,Q47520398,Tag:amenity=water_point
 17_47520407,,Q47520407,Tag:amenity=waste_transfer_station
@@ -2641,6 +2663,7 @@
 17_50612088,,Q50612088,Key:payment:jcb
 17_50612448,,Q50612448,Key:payment:diners_club
 17_51369558,,Q51369558,Key:historic
+17_51754273,,Q51754273,Key:license
 17_51879601,,Q51879601,Tag:building:architecture=historicism
 17_52008245,,Q52008245,Key:payment:mipay
 17_52177058,,Q52177058,Tag:building=civic
@@ -2709,6 +2732,7 @@
 17_67166646,,Q67166646,Tag:natural=cave_entrance
 17_67207179,,Q67207179,Tag:hazard=animal_crossing
 17_67356821,,Q67356821,Tag:traffic_sign=maxspeed
+17_67439188,,Q67439188,Relation:chronology
 17_69676094,,Q69676094,Tag:animal_shelter:release=yes
 17_70780172,,Q70780172,Tag:crop=tea
 17_74051479,,Q74051479,Tag:flag:type=advertising
@@ -2731,7 +2755,6 @@
 17_91975076,,Q91975076,Tag:barrier=height_restrictor
 17_91985448,,Q91985448,Tag:playground=map
 17_95630587,,Q95630587,Tag:source=PMLP
-17_96337207,,Q96337207,Key:landuse
 17_96348143,,Q96348143,Tag:network=US:OH
 17_96401858,,Q96401858,Tag:industrial=rice_mill
 17_96758296,,Q96758296,Tag:brand=SB_Tank
@@ -2892,11 +2915,13 @@
 17_99963338,,Q99963338,Tag:cycle_network=US:NY
 17_99963527,,Q99963527,Tag:cycle_network=US:NC
 17_99963807,,Q99963807,Tag:cycle_network=US:GA
+17_100348587,,Q100348587,Key:live_music
 17_101251405,,Q101251405,Tag:network=US:OH:MRG
 17_102240431,,Q102240431,Tag:china_class=cun
 17_103821032,,Q103821032,Tag:vending=toll
 17_104642575,,Q104642575,Role:label
 17_104759444,,Q104759444,Tag:bicycle_parking=wall_loops
+17_104817981,,Q104817981,Tag:shop=furniture
 17_104911496,,Q104911496,Tag:flag:type=military
 17_104969796,,Q104969796,Tag:man_made=street_cabinet
 17_105080952,,Q105080952,Tag:wetland=tidalflat
@@ -2916,10 +2941,12 @@
 17_107041232,,Q107041232,Key:campwild
 17_107133771,,Q107133771,Tag:highway=tertiary
 17_107274313,,Q107274313,Tag:service=commuter
+17_107299031,,Q107299031,Tag:brand:wikidata=Q107299031|Tag:brand=Krowarzywa
 17_107599282,,Q107599282,Tag:deep_draft=yes
 17_107616175,,Q107616175,Tag:location=outdoor
 17_108862123,,Q108862123,Tag:landuse=commercial
 17_109389617,,Q109389617,8156154
+17_109921054,,Q109921054,Tag:surface=tartan
 17_110090224,,Q110090224,Tag:smoking=separated
 17_110227645,,Q110227645,Tag:religion=pastafarian
 17_110301411,,Q110301411,Tag:amenity=kick-scooter_rental
@@ -3003,3 +3030,8 @@
 17_113361173,,Q113361173,Tag:access=private|Tag:leisure=swimming_pool
 17_113406611,,Q113406611,Key:name:skr
 17_113499246,,Q113499246,Tag:barrier=wedge
+17_114567803,,Q114567803,Tag:brand:wikidata=Q114567803|Tag:brand=Tigre
+17_114567814,,Q114567814,Tag:brand:wikidata=Q114567814|Tag:brand=Tigre_Amico
+17_114593993,,Q114593993,Tag:amenity=compressed_air
+17_114646415,,Q114646415,Tag:boules=petanque|Tag:leisure=pitch|Tag:sport=boules
+17_114729344,,Q114729344,Tag:shop=bakery

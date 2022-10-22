@@ -78,9 +78,16 @@ if [ "$OPERATION" = "crawler_wikipedia_bsl4facilities" ]; then
   crawler_wikipedia_bsl4facilities
   exit 0
 fi
+
 # OPERATION=wikipedia_administrative_divisions ./scripts/via-github-action.sh
 if [ "$OPERATION" = "wikipedia_administrative_divisions" ]; then
   ./scripts/etc/wikipedia_administrative_divisions.sh
+  exit 0
+fi
+
+# OPERATION=wikidata_openstreetmap_tag_or_key ./scripts/via-github-action.sh
+if [ "$OPERATION" = "wikidata_openstreetmap_tag_or_key" ]; then
+  ./scripts/etc/wikidata_openstreetmap_tag_or_key.sh
   exit 0
 fi
 
